@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+
+{% block title %}Services3{% endblock title %}
+
+{% block body %}
+<div class="container my-3">
+    <div class="icecream-container">
+        <div class="icecream-card">
+            <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="icecream-img">
+            <p class="flavor-name">Family Pack (3 Full Scoops)(All Ice Cream Flavours Available)</p>
+            <span class="rating"><b>Rs.230</b></span>
+          <br>
+            <div class="action-buttons">
+                <button class="view-btn">View</button>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            <span class="rating">⭐ 4.1/5</span>
+        </div>
+    </div>
+
+    
+
+    <style>
+        /* Heading Styling */
+        .icecream-heading {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    
+        /* Grid Container */
+        .icecream-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+    
+        /* Ice Cream Card */
+        .icecream-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .icecream-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+    
+        /* Image Styling */
+        .icecream-img {
+            width: 30%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    
+        /* Flavor Name */
+        .flavor-name {
+            font-size: 1rem;
+            color: #444;
+            margin: 10px 0;
+        }
+    
+        .rating {
+            font-size: 0.9rem;
+            color: #555;
+            display: block;
+        }
+    
+        /* Buttons */
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        .view-btn, .cart-btn {
+            background: #e77c7c;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .view-btn:hover, .cart-btn:hover {
+            background: #dd2c3a;
+        }
+    </style>
+    <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>About us</h2>
+            <a href="#">Blog</a>
+            <a href="#">Demo</a>
+            <a href="#">Customers</a>
+            <a href="#">Investors</a>
+            <a href="#">Terms of services</a>
+          </div>
+    
+          <div class="footer-heading footer-1">
+            <h2>Contact us</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsorship</a>
+    
+          </div>
+    
+          <div class="footer-heading footer-1">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#"></a>
+          </div>
+        </div>
+      
+        <style>
+          *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+          }
+    
+          .footer-container{
+            background-color: #d82d35;
+            padding-bottom: 4rem;
+            box-sizing: border-box;
+            
+          }
+    
+          .footer{
+            width: 80%;
+            height:auto;
+            background-color:#d82d35;
+            color:#fff;
+            display:flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-top: 2rem;
+    
+          }
+    
+          .footer-heading{
+            display: flex;
+            flex-direction: column;
+            margin-right: 4rem;
+            margin-top:2rem;
+          }
+    
+          .footer-heading h2{
+            margin-bottom: 2rem;
+          }
+    
+          .footer-heading a{
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+          }
+    
+          .footer-heading a:hover{
+            color: black;
+            transition: 0.3s ease-out;
+          }
+        </style>
+      </div>
+</div>
+{% endblock body %}

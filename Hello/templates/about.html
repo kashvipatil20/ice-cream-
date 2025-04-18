@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock title %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+</head>
+<body>
+    <!-- <h1 class="text-center">About Us</h1> -->
+    <!-- <div class="about-section">
+        
+        <img src="https://images.unsplash.com/photo-1644665068902-19eee9672777?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="470" weidth="200" alt="Jane" style="width:100%">
+        <h1 class="text-center" style="position:absolute;top:70px;left:530px" >About us</h1>
+        <p class="text-center" style="position:absolute;top:430px">Welcome to <strong>Kashvi Ice Cream Shop</strong>, where every scoop is crafted with love and a passion for creating the most delightful frozen treats! We are more than just an ice cream shop—we’re a place where sweet memories are made. Our mission is to bring joy to our community with high-quality, handcrafted ice creams made from the finest ingredients.</p>
+         <p class="text-center">From classic flavors to unique creations, we believe every scoop should be an experience. Come visit us and treat yourself to a moment of pure happiness! 🍦✨</p> 
+        
+    </div> -->
+    
+
+    
+    <h5 class="team-main-heading my-0">Meet our Team</h5>
+<div class="team-container" >
+    <div class="team-card">
+        <img src="https://i.pinimg.com/736x/3f/04/b5/3f04b5a947447513a8bda59bc6dc7b68.jpg" class="passport-img" alt="Kashvi">
+        <div class="team-info">
+            <h2>Kashvi Patil</h2>
+            <p class="title">Founder & CEO</p>
+            <p>With a love for ice cream and a dream to spread happiness, Kashvi founded Kashvi Ice Cream Shop to create delicious, handcrafted flavors for everyone to enjoy.</p>
+            <p class="email">kashvipatil20@gmail.com</p>
+            <button class="contact-btn">Contact</button>
+        </div>
+    </div>
+
+    <div class="team-card">
+        <img src="https://i.pinimg.com/736x/7a/6f/1b/7a6f1b4b7721275fc5ca5d841c4c5405.jpg" class="passport-img" alt="Muskan">
+        <div class="team-info">
+            <h2>Muskan Arora</h2>
+            <p class="title">Head of Creative</p>
+            <p>Muskan is the mastermind behind our unique flavors and artistic ice cream presentations, making every scoop a visual and tasty delight.</p>
+            <p class="email">muskan@example.com</p>
+            <button class="contact-btn">Contact</button>
+        </div>
+    </div>
+    <h3 class="team-heading">Welcome to <strong>Kashvi Ice Cream Shop</strong>, where every scoop is crafted with love and a passion for creating the most delightful frozen treats! We are more than just an ice cream shop—we’re a place where sweet memories are made. Our mission is to bring joy to our community with high-quality, handcrafted ice creams made from the finest ingredients.</h3>
+</div>
+
+<style>
+
+    .team-main-heading{
+        font-size: 2rem;
+        text-align: center;
+        background-color: rgb(241, 100, 100);
+        font-style: oblique;
+        
+    }
+    /* Heading Styling */
+    .team-heading {
+        text-align: center;
+        font-size: 2rcap;
+        
+        color: #333;
+        margin-bottom: 20px;
+        font-style: oblique;
+    }
+
+    /* Team Section Layout */
+    .team-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        background-color: rgb(247, 149, 149);
+        
+    }
+
+    /* Team Card */
+    .team-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+        transition: 0.3s ease-in-out;
+        
+    }
+
+    .team-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Image Styling */
+    .passport-img {
+        width: 120px;  /* Standard passport width */
+        height: 120px; /* Standard passport height */
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #f48fb1;
+        margin-bottom: 15px;
+    }
+
+    /* Team Info */
+    .team-info h2 {
+        font-size: 1.5rem;
+        color: #444;
+    }
+
+    .title {
+        font-size: 1rem;
+        color: #777;
+        margin-bottom: 10px;
+    }
+
+    .email {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    /* Contact Button */
+    .contact-btn {
+        background: #f48fb1;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    .contact-btn:hover {
+        background: #d81b60;
+    }
+</style>
+
+    
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>About us</h2>
+            <a href="#">Blog</a>
+            <a href="#">Demo</a>
+            <a href="#">Customers</a>
+            <a href="#">Investors</a>
+            <a href="#">Terms of services</a>
+          </div>
+    
+          <div class="footer-heading footer-1">
+            <h2>Contact us</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsorship</a>
+    
+          </div>
+    
+          <div class="footer-heading footer-1">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#"></a>
+          </div>
+        </div>
+      
+        <style>
+          *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+          }
+    
+          .footer-container{
+            background-color: #d82d35;
+            padding-bottom: 4rem;
+            box-sizing: border-box;
+            
+          }
+    
+          .footer{
+            width: 80%;
+            height:auto;
+            background-color:#d82d35;
+            color:#fff;
+            display:flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-top: 2rem;
+    
+          }
+    
+          .footer-heading{
+            display: flex;
+            flex-direction: column;
+            margin-right: 4rem;
+            margin-top:2rem;
+          }
+    
+          .footer-heading h2{
+            margin-bottom: 2rem;
+          }
+    
+          .footer-heading a{
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+          }
+    
+          .footer-heading a:hover{
+            color: black;
+            transition: 0.3s ease-out;
+          }
+        </style>
+      </div>   
+</body>
+</html>
+{% endblock body %}

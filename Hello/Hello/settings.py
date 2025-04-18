@@ -51,6 +51,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://ice-cream-6.onrender.com",
+]
+
+
 ROOT_URLCONF = 'Hello.urls'
 
 TEMPLATES = [

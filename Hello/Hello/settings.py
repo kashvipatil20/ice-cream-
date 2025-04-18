@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-d1b3ts@971eci-b2plu!b(5o+1c!r)vqf-g6109gy)9$6(y2*5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ice-cream-2-n2rn.onrender.com']
+ALLOWED_HOSTS = ['ice-cream-2-n2rn.onrender.com' , 'ice-cream-5.onrender.com']
 
 
 # Application definition

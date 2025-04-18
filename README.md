@@ -22,7 +22,7 @@ A simple and elegant web application for an ice cream shop, built using Django. 
 
 ## 🙋‍♀️ About Me
 I'm a B.Tech student specializing in AI & ML, passionate about backend development and web technologies.
-Let’s connect on LinkedIn!(https://www.linkedin.com/in/kashvi-patil-054645255/)
+Let’s connect on LinkedIn!
 
 Feel free to open issues or share feedback. Thanks for checking out my project! 💛
 
